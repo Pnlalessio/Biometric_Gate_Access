@@ -55,6 +55,10 @@ The **Android application communicates with a Raspberry Pi** through an **HTTP F
 
 This setup bridges **biometric authentication** with **physical control mechanisms**.  
 
+<div align="center">
+  <img src="images_BS/immagine2.png" width="400">
+</div>
+
 ---
 
 ## 🔑 Enrollment & Verification Policies  
