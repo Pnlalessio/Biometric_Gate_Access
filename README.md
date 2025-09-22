@@ -57,6 +57,7 @@ This setup bridges **biometric authentication** with **physical control mechanis
 
 <div align="center">
   <img src="images_BS/Immagine2.jpg" width="500">
+  <img src="images_BS/Immagine5.jpg" width="500">
 </div>
 
 ---
