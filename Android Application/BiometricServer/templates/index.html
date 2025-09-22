@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title>Biometric Gate Access</title>
+    <style>
+        .image-container {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            width: 200px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        {% for image, prediction, result in results %}
+            <div class="image-container">
+                <img src="{{ url_for('uploaded_file', filename=image) }}">
+                <p>{{ result }} ({{ '%.6f' % prediction }})</p>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
+
+

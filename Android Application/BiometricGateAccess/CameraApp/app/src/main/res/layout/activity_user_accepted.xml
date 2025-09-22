@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/gateIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gate"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/gateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gateIcon"
+        android:layout_centerHorizontal="true"
+        android:text="Open / Close Gate"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:layout_marginBottom="60dp"/>
+
+    <ImageView
+        android:id="@+id/doorIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/gateButton"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/door_locked"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/doorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doorIcon"
+        android:layout_centerHorizontal="true"
+        android:text="Unlock Door"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="12dp"/>
+</RelativeLayout>
