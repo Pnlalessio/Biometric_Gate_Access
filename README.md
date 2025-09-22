@@ -204,3 +204,9 @@ For **face recognition**, we used **Labelled Faces in the Wild (LFW)** and perfo
 - These limitations were more evident in **uncontrolled conditions** (like LFW dataset images).  
 
 ---
+
+## Authors
+- [@Pnlalessio](https://github.com/Pnlalessio)  
+- [@JessicaFrabotta](https://github.com/JessicaFrabotta)
+
+---
