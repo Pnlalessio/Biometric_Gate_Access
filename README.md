@@ -83,7 +83,11 @@ The biometric pipeline consists of **two main phases**:
   2. **Liveness Detection** → if any image is spoofed → `reject`  
   3. **Face Recognition** → compare extracted features against stored templates (linked to Android ID)  
      - If match → `accept`  
-     - Else → `reject`  
+     - Else → `reject`
+    
+<div align="center">
+  <img src="images_BS/Immagine4.png" width="500">
+</div>
 
 This **multi-step verification policy** ensures **accuracy, robustness, and resistance to spoofing attacks**.  
 
