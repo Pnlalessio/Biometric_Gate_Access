@@ -102,11 +102,6 @@ This **multi-step verification policy** ensures **accuracy, robustness, and resi
 
 ---
 
-# 🔐 Biometric Gate Access  
-**Face Detection, Liveness Detection, and Face Recognition for Secure Access Control**  
-
----
-
 ## 📂 Dataset Preparation  
 
 To properly evaluate and train the different modules of our biometric access system, we combined **public datasets** with a **manually created dataset**.  
