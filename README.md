@@ -15,7 +15,7 @@ Biometrics provide an **ideal and efficient solution**, combining **automation, 
 …all performed **rapidly through facial recognition**, offering a **secure, user-friendly, and automated access system**.  
 
 <div align="center">
-  <img src="images_BS/Immagine6.jpg" width="300">
+  <img src="images_BS/Immagine6.jpg" width="400">
 </div>
 
 ---
