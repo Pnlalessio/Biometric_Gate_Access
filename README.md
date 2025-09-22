@@ -71,6 +71,10 @@ The biometric pipeline consists of **two main phases**:
 - ❌ Otherwise → request the user to retake the images.  
 - Templates are stored on the server and linked to the user’s **Android ID** (unique device identifier).  
 
+<div align="center">
+  <img src="images_BS/Immagine3.png" width="500">
+</div>
+
 ### 🔎 Verification Phase  
 - Similarly, the system requires **three face images** for verification.  
 - Images undergo **preprocessing** (resizing & normalization).  
