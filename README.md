@@ -14,6 +14,10 @@ Biometrics provide an **ideal and efficient solution**, combining **automation, 
 
 …all performed **rapidly through facial recognition**, offering a **secure, user-friendly, and automated access system**.  
 
+<div align="center">
+  <img src="images_BS/immagine6.jpg" width="400">
+</div>
+
 ---
 
 ## 🏗️ System Architecture  
@@ -51,6 +55,11 @@ The **Android application communicates with a Raspberry Pi** through an **HTTP F
 
 This setup bridges **biometric authentication** with **physical control mechanisms**.  
 
+<div align="center">
+  <img src="images_BS/Immagine2.jpg" width="370">
+  <img src="images_BS/Immagine5.png" width="440">
+</div>
+
 ---
 
 ## 🔑 Enrollment & Verification Policies  
@@ -63,6 +72,10 @@ The biometric pipeline consists of **two main phases**:
 - ❌ Otherwise → request the user to retake the images.  
 - Templates are stored on the server and linked to the user’s **Android ID** (unique device identifier).  
 
+<div align="center">
+  <img src="images_BS/Immagine7.png" width="400">
+</div>
+
 ### 🔎 Verification Phase  
 - Similarly, the system requires **three face images** for verification.  
 - Images undergo **preprocessing** (resizing & normalization).  
@@ -71,7 +84,11 @@ The biometric pipeline consists of **two main phases**:
   2. **Liveness Detection** → if any image is spoofed → `reject`  
   3. **Face Recognition** → compare extracted features against stored templates (linked to Android ID)  
      - If match → `accept`  
-     - Else → `reject`  
+     - Else → `reject`
+    
+<div align="center">
+  <img src="images_BS/Immagine4.png" width="550">
+</div>
 
 This **multi-step verification policy** ensures **accuracy, robustness, and resistance to spoofing attacks**.  
 
@@ -201,7 +218,13 @@ For **face recognition**, we used **Labelled Faces in the Wild (LFW)** and perfo
   - Different poses  
   - Lighting changes  
   - Facial expressions  
-- These limitations were more evident in **uncontrolled conditions** (like LFW dataset images).  
+- These limitations were more evident in **uncontrolled conditions** (like LFW dataset images).
+
+---
+
+## 🎥 Demonstrations  
+
+You can find demonstration videos showing how the system works in the .pptx file available for download at this [link](https://drive.google.com/file/d/1VKTbjLuftkcb_FGsLPMSeYdKDOXtSj4k/view).
 
 ---
 
