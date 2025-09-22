@@ -224,7 +224,7 @@ For **face recognition**, we used **Labelled Faces in the Wild (LFW)** and perfo
 
 ## 🎥 Demonstrations  
 
-You can find demonstration videos showing how the system works in the .pptx file available for download at this [link](https://drive.google.com/file/d/126eiOTjoHAptE4GLCWDK46c3gz_tiYP8/view?usp=sharing).
+You can find demonstration videos showing how the system works in the .pptx file available for download at this [link](https://drive.google.com/file/d/1VKTbjLuftkcb_FGsLPMSeYdKDOXtSj4k/view).
 
 ---
 
