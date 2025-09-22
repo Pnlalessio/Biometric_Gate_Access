@@ -72,7 +72,7 @@ The biometric pipeline consists of **two main phases**:
 - Templates are stored on the server and linked to the user’s **Android ID** (unique device identifier).  
 
 <div align="center">
-  <img src="images_BS/Immagine3.png" width="400">
+  <img src="images_BS/Immagine7.png" width="400">
 </div>
 
 ### 🔎 Verification Phase  
