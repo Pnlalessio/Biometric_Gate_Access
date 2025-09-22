@@ -218,7 +218,13 @@ For **face recognition**, we used **Labelled Faces in the Wild (LFW)** and perfo
   - Different poses  
   - Lighting changes  
   - Facial expressions  
-- These limitations were more evident in **uncontrolled conditions** (like LFW dataset images).  
+- These limitations were more evident in **uncontrolled conditions** (like LFW dataset images).
+
+---
+
+## 🎥 Demonstrations  
+
+You can find demonstration videos showing how the system works in the .pptx file available for download at this link [link](https://drive.google.com/file/d/1VKTbjLuftkcb_FGsLPMSeYdKDOXtSj4k/view) 
 
 ---
 
